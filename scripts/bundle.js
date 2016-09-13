@@ -1,5 +1,5 @@
 require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-"use strict";var controllername="homepage";module.exports=function(e){function t(e,t,i,a,o,s){var r=this;r.controllername=n,r.gotoform=function(e){o.hash(e),s(),o.hash("")},r.steps=[{logo:"images/graphlogo.png",title:"Leverage your custom audience",description:"Deepsight encrypts your data and finds your custom audience on publishers‘ databases."},{logo:"images/earthlogo.png",title:"Operate Deep Learning",description:"Deepsight's Deep Learning algorithm discovers the implicit patterns inside your custom audience behaviour on publishers websites. Then, it identifies a fresh similar audience,  inside publisher’s database."},{logo:"images/constellationlogo.png",title:"Activate your next audience",description:"Thanks to Deepsight’s integrations with the best Adtech services you can activate your Deepsight Next Audience segment and empower your marketing campaigns."}],r.jobs=[{title:"Business Development intern",preview:"From Business development \n to HR to Finance you will be given immediate responsibility in our company and help us run a growing business. You will be in a fun and dynamic work environment where we foster openness and initiative",subtitle1:"Deepsight is building the future of Advertising",section1content:"Deepsight allows advertisers to target the right audience on the web. Data 3rd party is over. Thanks to Deepsight and its Deep Learning algorithm the first party data of brands is used to define the right custom audience to target on our network of premium editors.",subtitle2:"Key responsabilities",section2content:[{content:"Provide competitive and market intelligence within the adtech industry"},{content:"Build and manage sales funnels, in order to acquire leads and close deals"},{content:"Ensuring customer loyalty and satisfaction through excellent customer relationship"},{content:"Create business presentations and sales reports"},{content:"Organize capital events to ensure Deepsight representation in the market and evangelization (organize Meetups, hackathons, etc)"},{content:"Represent Deepsight in market events such as networking and trade shows"},{content:"Collaborate with colleagues in order to drive improvements to products and processes, closely monitor company KPIs"},{content:"Participate in the branding and marketing of Deepsight: build commercial documentation, give insights on Streamroot's market positioning"},{content:"Help manage and create the ideal Deepsight abroad team by recruiting the best colleagues"}],subtitle3:"Requirements",section3content:[{content:"Top ranked Business/Engineering school degree (dual degree is a plus)."},{content:"You are autonomous, dynamic, and passionate about startups and technology."},{content:"Fast learner who likes a challenge and can put a vision into action"},{content:"Excellent written and verbal communication skills in English."},{content:"First BtoB experience in the media industry is a plus."}],subtitle5:"Benefits",section5content:[{content:"Possible shift to a full-time contract"},{content:"Free cookies & fruits everyday!"}]}],r.team=[{nom:"Brice KONDA",picture:"images/brice.png",title:"CEO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/bricekonda?authType=NAME_SEARCH&authToken=XEue&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_266286701%2Cidx%3A0",description:"Brice has experienced various environments from finance at Goldman Sachs, to marketing at Rocket Internet but has found the perfect mix between analysis and mathematics in the Data Industry. His education at Centrale Paris in Computer science gives him a strong technical background."},{nom:"Valentin PIGNOLET",picture:"images/valentin.png",title:"CTO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/valentin-pignolet-97330584?authType=NAME_SEARCH&authToken=YfG8&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A299354919%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425750464%2Ctas%3Avalentin",description:"With previous experiences in fast growing start-ups, Valentin has learned how to build and scale complex softwares. In addition, Valentin has a strong mathematical background and lately he chose to specialize in deep learning at Ecole Centrale Paris."},{nom:"Hector de LUSSAC",picture:"images/hector.png",title:"VP Sales & Co-founder",linkedinprofile:"https://www.linkedin.com/in/hectordelussac?authType=NAME_SEARCH&authToken=NfO6&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A20642038%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425738923%2Ctas%3Ahector%20de%20lussa",description:"With previous experiences in fast growing start-ups, Valentin has learned how to build and scale complex softwares. In addition, Valentin has a strong mathematical background and lately he chose to specialize in deep learning at Ecole Centrale Paris."}],r.jobdisplayed=[],r.jobtodisplay=function(e){r.jobdisplayed=r.jobs[e]},r.display=!1,r.displayform=!1,r.scroll="",r.jobofferf=function(){r.display===!0?(r.display=!1,r.scroll=""):r.display===!1&&(r.display=!0,r.scroll="view-wrapper")},r.getdeepsight=function(){r.displayform===!0?(r.displayform=!1,r.scroll=""):r.displayform===!1&&(r.displayform=!0,r.scroll="view-wrapper")},console.log(r.firstname),r.savesuccess=!0,r.submitForm=function(){i({method:"POST",url:"https://docs.google.com/forms/d/15G_e5qdh038_IQhsU5isIbrlORPhXG33X_wqn86WMiI/prefill",data:{"entry.593107124":r.firstname,"entry.512202961":r.lastname,"entry.610193312":r.email,"entry.1819518834":r.companyname,"entry.1378876788":r.message}}).then(function(){r.firstname=" ",r.lastname=" ",r.email=" ",r.companyname=" ",r.message=" ",o.hash("top"),s(),o.hash(""),r.savesuccess=!1,t.$apply(a(function(){r.savesuccess=!0},3e3))})}}var n=e.name+"."+controllername,i=["$document","$scope","$http","$timeout","$location","$anchorScroll"];t.$inject=i,e.controller(n,t)};
+"use strict";var controllername="homepage";module.exports=function(e){function t(e,t,i,a,o,s){var r=this;r.controllername=n,r.gotoform=function(e){o.hash(e),s(),o.hash("")},r.steps=[{logo:"images/graphlogo.png",title:"Leverage your custom audience",description:"Deepsight encrypts your data and finds your custom audience on publishers‘ databases."},{logo:"images/earthlogo.png",title:"Operate Deep Learning",description:"Deepsight's Deep Learning algorithm discovers the implicit patterns inside your custom audience behaviour on publishers websites. Then, it identifies a fresh similar audience,  inside publisher’s database."},{logo:"images/constellationlogo.png",title:"Activate your next audience",description:"Thanks to Deepsight’s integrations with the best Adtech services you can activate your Deepsight Next Audience segment and empower your marketing campaigns."}],r.jobs=[{title:"Business Development intern",preview:"From Business development \n to HR to Finance you will be given immediate responsibility in our company and help us run a growing business. You will be in a fun and dynamic work environment where we foster openness and initiative",subtitle1:"Deepsight is building the future of Advertising",section1content:"Deepsight allows advertisers to target the right audience on the web. Data 3rd party is over. Thanks to Deepsight and its Deep Learning algorithm the first party data of brands is used to define the right custom audience to target on our network of premium editors.",subtitle2:"Key responsabilities",section2content:[{content:"Provide competitive and market intelligence within the adtech industry"},{content:"Build and manage sales funnels, in order to acquire leads and close deals"},{content:"Ensuring customer loyalty and satisfaction through excellent customer relationship"},{content:"Create business presentations and sales reports"},{content:"Organize capital events to ensure Deepsight representation in the market and evangelization (organize Meetups, hackathons, etc)"},{content:"Represent Deepsight in market events such as networking and trade shows"},{content:"Collaborate with colleagues in order to drive improvements to products and processes, closely monitor company KPIs"},{content:"Participate in the branding and marketing of Deepsight: build commercial documentation, give insights on Streamroot's market positioning"},{content:"Help manage and create the ideal Deepsight abroad team by recruiting the best colleagues"}],subtitle3:"Requirements",section3content:[{content:"Top ranked Business/Engineering school degree (dual degree is a plus)."},{content:"You are autonomous, dynamic, and passionate about startups and technology."},{content:"Fast learner who likes a challenge and can put a vision into action"},{content:"Excellent written and verbal communication skills in English."},{content:"First BtoB experience in the media industry is a plus."}],subtitle5:"Benefits",section5content:[{content:"Possible shift to a full-time contract"},{content:"Free cookies & fruits everyday!"}]}],r.team=[{nom:"Brice KONDA",picture:"images/brice.png",title:"CEO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/bricekonda?authType=NAME_SEARCH&authToken=XEue&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_266286701%2Cidx%3A0",description:"Brice has experienced various environments from finance at Goldman Sachs, to marketing at Rocket Internet but has found the perfect mix between analysis and mathematics in the Data Industry. His education at Centrale Paris in Computer science gives him a strong technical background."},{nom:"Hector de LUSSAC",picture:"images/hector.png",title:"CRO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/hectordelussac?authType=NAME_SEARCH&authToken=NfO6&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A20642038%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425738923%2Ctas%3Ahector%20de%20lussa",description:"With 15 years in advertising industry, Hector has developed a strong expertise in monetization of audiences including programmatic advertising. Hector has been Head of Sales at Adventori, Ligatus GmbH and Quantum Advertising; he's fully convinced that the future of advertising industry is fully data oriented and it's still the beginning... "},{nom:"Valentin PIGNOLET",picture:"images/valentin.png",title:"CTO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/valentin-pignolet-97330584?authType=NAME_SEARCH&authToken=YfG8&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A299354919%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425750464%2Ctas%3Avalentin",description:"With previous experiences in fast growing start-ups, Valentin has learned how to build and scale complex softwares. In addition, Valentin has a strong mathematical background and lately he chose to specialize in deep learning at Ecole Centrale Paris."}],r.jobdisplayed=[],r.jobtodisplay=function(e){r.jobdisplayed=r.jobs[e]},r.display=!1,r.displayform=!1,r.scroll="",r.jobofferf=function(){r.display===!0?(r.display=!1,r.scroll=""):r.display===!1&&(r.display=!0,r.scroll="view-wrapper")},r.getdeepsight=function(){r.displayform===!0?(r.displayform=!1,r.scroll=""):r.displayform===!1&&(r.displayform=!0,r.scroll="view-wrapper")},r.savesuccess=!0,r.submitForm=function(){a(function(){r.firstname=" ",r.lastname=" ",r.email=" ",r.companyname=" ",r.message=" "},500),o.hash("top"),s(),o.hash(""),r.savesuccess=!1,a(function(){r.savesuccess=!0},3e3)}}var n=e.name+"."+controllername,i=["$document","$scope","$http","$timeout","$location","$anchorScroll"];t.$inject=i,e.controller(n,t)};
 
 },{}],2:[function(require,module,exports){
 "use strict";module.exports=function(e){require(1)(e)};
@@ -18,16 +18,13 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '            </div>\n' +
     '            <div class="introduction-block-content">\n' +
     '                <div class="introduction-block-title">REACH YOUR NEXT CUSTOMER WITH AI</div>\n' +
-    '                <div class="introduction-block-subtitle">Deepsight helps brand make the best out of their data to improve marketing efficiency</div>\n' +
-    '                <!-- 		<div class="CTA-btn"><div class="CTA-content"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdi47g6D-XKH4NKxr10i4Mq2CbJ-qz61F-jIgHxR97R9gh2bw/viewform" target="_blank	" class="email-link">REQUEST A DEMO</a></div></div> -->\n' +
-    '\n' +
+    '                <div class="introduction-block-subtitle">Deepsight helps brands make the best out of their data to improve marketing efficiency</div>\n' +
     '                <div class="CTA-btn" ng-click="vm.gotoform(\'information\')">\n' +
     '                    <div class="CTA-content">REQUEST A DEMO</div>\n' +
     '                </div>\n' +
     '\n' +
     '            </div>\n' +
     '        </div>\n' +
-    '        <!-- 	<img class="introduction-block-image-presentation" src="images/illustration1.png"> -->\n' +
     '        <div class="deepsight-steps-wrapper">\n' +
     '            <div class="introduction-block-title">\n' +
     '                <span style="color :#23231C">Next Audience by Deepsight </span>\n' +
@@ -50,7 +47,7 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '    </div>\n' +
     '\n' +
     '    <div class="team-block">\n' +
-    '        <div class="team-block-title">L\'Equipe</div>\n' +
+    '        <div class="team-block-title">The team</div>\n' +
     '        <div class="team-member-container">\n' +
     '            <div class="team-member-wrapper" ng-repeat="member in vm.team">\n' +
     '                <div class="team-member-picture-wrapper">\n' +
@@ -65,7 +62,7 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '            </div>\n' +
     '        </div>\n' +
     '        <div class="hiring">Join us!</div>\n' +
-    '        <div class="hiring-content steps-subtitle">We are looking for data scientist, back-end developer and business developper.\n' +
+    '        <div class="hiring-content steps-subtitle">We are looking for data scientists, back-end developers and business developers.\n' +
     '            <br>Think you would fit right in? Wow us with your résumé and portfolio/Github!</div>\n' +
     '        <a href="mailto:brice@deepsight.io" class="email-link">\n' +
     '            <div class="CTA-btn hiring-btn">\n' +
@@ -75,19 +72,8 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '    </div>\n' +
     '\n' +
     '    <div class="form-block">\n' +
-    '        <!-- 	<div class="job-block-title">We\'re hiring</div>\n' +
-    '	<div class="job-block-subtitle">At Deepsight, our goal is to provide tools to advertiser allowing them to reach custom audiences on the web<br><br>To make this happen, we are assembling a team of passionate, creative people that strive to apply cutting edge research to real-world problems while building delightful products.<br><br>If you believe that AI is the future, want to continue learning about new technologies and actually make a difference with your work, then get in touch — we have something you might like.</div>\n' +
-    '\n' +
-    '	<div class="job-card" ng-repeat="job in vm.jobs">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">{{job.title}}</div>\n' +
-    '			<div class="job-card-subtitle">{{job.preview}}</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn" ng-click="vm.jobofferf(); vm.jobtodisplay($index)"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div>\n' +
-    '		<div class="CTA-btn-bis" ng-click="vm.getdeepsight()"><div class="CTA-content">REQUEST A DEMO</div></div> -->\n' +
     '        <div class="get-in-touch" id="information">Get in touch with us</div>\n' +
-    '        <form name="userForm" class="form-class" target="_self" >\n' +
+    '        <form name="userForm" class="form-class" action="https://docs.google.com/forms/d/15G_e5qdh038_IQhsU5isIbrlORPhXG33X_wqn86WMiI/formResponse" method="POST" target="fake-target">\n' +
     '\n' +
     '            <label class="get-in-touch-input-title">First Name</label>\n' +
     '            <input type="text" name="entry.593107124" ng-model="vm.firstname" class="get-in-touch-input" placeholder="">\n' +
@@ -98,30 +84,14 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '            <label class="get-in-touch-input-title">Company Name</label>\n' +
     '            <input type="text" name="entry.1819518834" ng-model="vm.companyname" class="get-in-touch-input" placeholder="">\n' +
     '            <label type="text" name="message" class="get-in-touch-input-title">Message</label>\n' +
-    '			{{vm.firstname}}\n' +
     '            <textarea type="text" name="entry.1378876788" ng-model="vm.message" class="get-in-touch-message" placeholder=""></textarea>\n' +
-    '\n' +
-    '            <!-- 			<a href="#"><button type="submit" class="submit-in-btn-valid" ng-click="vm.submitGoogleForm()"><div class="submit-in-text">SUBMIT</div></button></a> -->\n' +
     '\n' +
     '            <button type="submit" class="submit-in-btn-valid" ng-click="vm.submitForm()">\n' +
     '                <div class="submit-in-text">SUBMIT</div>\n' +
     '            </button>\n' +
     '\n' +
     '        </form>\n' +
-    '        <!-- 	<div class="job-card">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">Back-end developer</div>\n' +
-    '			<div class="job-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div>\n' +
-    '	<div class="job-card">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">Data scientist</div>\n' +
-    '			<div class="job-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn" ng-click="vm.jobofferf()"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div> -->\n' +
+    '        <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>\n' +
     '    </div>\n' +
     '    <div class="footer">\n' +
     '        <img class="logo-footer" src="images/logo.png">\n' +
@@ -130,62 +100,7 @@ module.exports = '<div ng-class="vm.scroll">\n' +
     '        <div class="footer-copyright">Copyright 2016 - SAS Deepsight Technologies</div>\n' +
     '    </div>\n' +
     '\n' +
-    '    <!-- <div class="job-offer-wrapper" ng-if="vm.display">\n' +
-    '        <img class="close-job-offer" src="images/close.png" ng-click="vm.jobofferf()">\n' +
-    '        <div class="job-offer-card" id="divtest">\n' +
-    '            <div class="job-offer-title">{{vm.jobdisplayed.title}}</div>\n' +
-    '            <div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle1}}</div>\n' +
-    '            <div class="job-offer-content">Deepsight allows advertisers to target the right audience on the web. Data 3rd party is over. Thanks to Deepsight and its Deep Learning algorithm the first party data of brands is used to define the right custom audience to target on our network of premium editors.\n' +
-    '                <br>\n' +
-    '                <br> Deepsight is seeking a creative, high-energy and motivated business developer who will report directly to our Co-Founder.\n' +
-    '                <br>\n' +
-    '                <br> You will be in a fun and dynamic work environment where we foster openness and initiative, with frequent team events and trips throughout the year.\n' +
-    '                <br>\n' +
-    '                <br> You will work hand-in-hand with our sales and developers teams in Paris learning all there is to know about online advertising. Then you will be able to fully work with Deepsight Team.\n' +
-    '            </div>\n' +
-    '            <div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle2}}</div>\n' +
-    '            <li ng-repeat="responsabilities in vm.jobdisplayed.section2content" class="job-offer-content">{{responsabilities.content}}</li>\n' +
-    '            <div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle3}}</div>\n' +
-    '            <li ng-repeat="requirements in vm.jobdisplayed.section3content" class="job-offer-content">{{requirements.content}}</li>\n' +
-    '            <div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle5}}</div>\n' +
-    '            <li ng-repeat="benefits in vm.jobdisplayed.section5content" class="job-offer-content">{{benefits.content}}</li>\n' +
-    '            <div class="job-offer-apply-wrapper">\n' +
-    '                <a href="mailto:votre_email" class="email-link">\n' +
-    '                    <div class="apply-btn-job-offer">\n' +
-    '                        <div class="apply-content">APPLY</div>\n' +
-    '                    </div>\n' +
-    '                </a>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '    <div class="job-offer-wrapper" ng-if="vm.displayform">\n' +
-    '        <img class="close-job-offer" src="images/close.png" ng-click="vm.getdeepsight()">\n' +
-    '        <div class="job-offer-card" id="divtest">\n' +
-    '            <div class="get-in-touch">Get in touch with us</div>\n' +
-    '            <form name="userForm" action="https://docs.google.com/forms/d/e/1FAIpQLSc64gxAbmB1g1ZdNQRGyn0Jt_Ye2dQ4lpmK5wEV4GVBjideVw/formResponse" target="_self" method="post" enctype="text/plain" ng-submit="vm.submitForm(userForm.$valid)" novalidate>\n' +
-    '\n' +
-    '                <label class="get-in-touch-input-title">First Name</label>\n' +
-    '                <input type="text" name="entry.593107124" class="get-in-touch-input" placeholder="">\n' +
-    '                <label class="get-in-touch-input-title">Last Name</label>\n' +
-    '                <input type="text" name="entry.512202961" class="get-in-touch-input" placeholder="">\n' +
-    '                <label class="get-in-touch-input-title">Email Address</label>\n' +
-    '                <input type="email" name="entry.610193312" class="get-in-touch-input" placeholder="">\n' +
-    '                <label class="get-in-touch-input-title">Company Name</label>\n' +
-    '                <input type="text" name="entry.1819518834" class="get-in-touch-input" placeholder="">\n' +
-    '                <label type="text" name="message" class="get-in-touch-input-title">Message</label>\n' +
-    '\n' +
-    '                <textarea type="text" name="entry.1378876788" class="get-in-touch-message" placeholder=""></textarea>\n' +
-    '\n' +
-    '                <button type="submit" class="submit-in-btn-valid">\n' +
-    '                    <div class="submit-in-text">SUBMIT</div>\n' +
-    '                </button>\n' +
-    '\n' +
-    '            </form>\n' +
-    '        </div>\n' +
-    '    </div> -->\n' +
-    '\n' +
-    '</div>\n' +
-    '';
+    '</div>';
 },{}],5:[function(require,module,exports){
 "use strict";var namespace="main";window.location.toString().indexOf("localhost:5555")>0&&(window.name="NG_DEFER_BOOTSTRAP!NG_ENABLE_DEBUG_INFO!");var angular=require(8);require(6);var app=angular.module(namespace,[require(3)(namespace).name]),configCompileDeps=["$compileProvider"],configCompile=function(n){n.debugInfoEnabled(!1)};configCompile.$inject=configCompileDeps,app.config(configCompile);var runDeps=[],run=function(){};run.$inject=runDeps,app.run(run),module.exports=app;
 
